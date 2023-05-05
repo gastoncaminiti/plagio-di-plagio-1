@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Puerta
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Puerta
+      Administrador","summary":"El script contrala cuando se pasa por la puerta y
+      suma puntos","pan":{"x":315.2375,"y":87.10818},"zoom":0.6999999,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-158.0,"y":-98.0},"guid":"47657d6a-c3ec-40d2-b1d9-b1d6a37ed52c","$version":"A","$type":"Unity.VisualScripting.OnTriggerExit2D","$id":"9"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"Puntaje","$type":"System.String"}},"position":{"x":-135.0,"y":59.0},"guid":"5c6f3476-0c69-4005-96cb-93289951bfed","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"11"},{"inputCount":2,"defaultValues":{},"position":{"x":62.0,"y":59.0},"guid":"66af5415-1e8f-4e54-973d-785c9ef35b2a","$version":"A","$type":"Unity.VisualScripting.GenericSum","$id":"13"},{"type":"System.Int32","value":{"$content":1,"$type":"System.Int32"},"defaultValues":{},"position":{"x":-133.0,"y":172.0},"guid":"976b23d6-5aaf-49d8-b228-e6c5cdce6bae","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"15"},{"kind":"Scene","defaultValues":{"name":{"$content":"Puntaje","$type":"System.String"}},"position":{"x":206.0,"y":-99.0},"guid":"0a481f85-8375-4bfd-b286-f7d691afc4b0","$version":"A","$type":"Unity.VisualScripting.SetVariable","$id":"17"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"17"},"destinationKey":"assign","guid":"22d8e8ae-d54c-490f-b64f-c7cae073294e","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"value","destinationUnit":{"$ref":"13"},"destinationKey":"0","guid":"508a51fa-ea97-4659-b15c-275be8df5c71","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"output","destinationUnit":{"$ref":"13"},"destinationKey":"1","guid":"0d614360-9c1b-4bab-8e2b-b43a995c01f0","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"sum","destinationUnit":{"$ref":"17"},"destinationKey":"input","guid":"48319fb5-6beb-4d65-875c-20260cb553e0","$type":"Unity.VisualScripting.ValueConnection"},{"position":{"xMin":-185.0,"yMin":-170.2,"xMax":371.0,"yMax":291.8},"label":"Sumar
+      puntaje","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"192c8b4f-fc27-4e69-9296-f8f227a1bf76","$version":"A","$type":"Unity.VisualScripting.GraphGroup"}],"$version":"A"}}'
+    _objectReferences: []
